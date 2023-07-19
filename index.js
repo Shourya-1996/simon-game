@@ -90,5 +90,5 @@ function updateScores(params) {
     highestScore = score;
   }
   $("#highest-score").text("Highest Score = " + highestScore);
-  score++;
+  score += 10;
 }
