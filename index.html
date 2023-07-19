@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <span id="score">Score = 0</span>
+  <span id="highest-score">Highest Score = 0</span>
+  <div>
+
+    <button id="start-button">Start</button>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="rules">Rules</h2>
+      <ul>
+        <li class="rules-item">Press the "Start" button or the press any key on the keyboard to initiate the game.</li>
+        <li class="rules-item">The color tile will be flashed and play a sound to start the sequence.</li>
+        <li class="rules-item">Pay attention to the sequence of colors and sounds that the tiles displays and plays.
+        </li>
+        <li class="rules-item">After the game shows the first color, repeat the same color by pressing the corresponding
+          color tile.</li>
+        <li class="rules-item">The game will progress in difficulty as the sequence gets longer with each successful
+          turn.
+        </li>
+        <li class="rules-item">Try to remember and repeat the entire sequence correctly to advance in the game.</li>
+        <li class="rules-item">If a player makes a mistake by pressing the wrong button or pressing a button out of
+          sequence, the game will
+          end for that player.</li>
+        <li class="rules-item">The player who can successfully repeat the longest sequence without making a mistake is
+          the winner.</li>
+      </ul>
+    </div>
+  </div>
+  <footer class="footer">&copy; Copyright 2023 www.simon-game-puzzle.com</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
