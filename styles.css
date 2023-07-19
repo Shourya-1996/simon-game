@@ -74,11 +74,6 @@ body {
   margin: 20px;
   margin-top: 20px;
 }
-#instructions{
-  margin: 0;
-  padding: 0;
-
-}
 .rules{
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
@@ -92,10 +87,9 @@ body {
   margin: 5%;
   color: #FEF2BF;
   justify-content: left;
-  list-style: n;
   text-align: left;
 }
 .footer{
-  color: #FEF2BF;
+  color: #fef2bf8c;
   font-size: 0.6rem;
 }
